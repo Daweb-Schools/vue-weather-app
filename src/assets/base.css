@@ -303,13 +303,22 @@ body {
 
 button {
   padding: 15px;
-  background-color: #160bab;
-  color: white;
+  background-color: #f6a91b;
+  color: black;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
-  border: 1px solid #675fd6;
+  border: 1px solid transparent;
   cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 20%;
+  border-radius: 0 0 20px 20px;
+}
+
+button:active,
+button:hover {
+  transform: scale(0.98);
 }
 
 .search-container {
